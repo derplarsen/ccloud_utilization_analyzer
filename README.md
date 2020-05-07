@@ -24,6 +24,22 @@ export CCLOUD_CLUSTER=lkc-abc123
 
 ### Yay! You now have a prebuilt working Grafana dashboard sourcing from Prometheus which is collecting metrics from the Confluent Cloud Metrics API. 
 
+### Q: I don't have any data showing? 
+
+### A: Prometheus is a database that needs to be populated, it will start scraping the Metrics API
+
+### Q: When can I expect to see my metrics rolling in? 
+
+### A: Metrics API data is populated every couple of minutes so you shouldn't have to wait long. Reload your Grafana dashboard page if necessary.
+
+### Q: How do I access Prometheus Directly?
+
+### A: Provided you don't have any port conflicts, you should be able to get to Prometheus to run expressions on http://localhost:9090
+
+### Q: What if I want to leverage the exporter directly using something other than Prometheus?
+
+### A: Great! You're savvy with telemetry exporters, as specified in Damien's README, you can hit it at localhost:2112
+
 ~~ For additional reference below ~~
 
 # ORIGINAL README from Damien: 
