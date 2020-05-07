@@ -16,3 +16,7 @@ services:
       CCLOUD_USER: ${CCLOUD_USER}
       CCLOUD_PASSWORD: ${CCLOUD_PASSWORD}
     command: -cluster ${CCLOUD_CLUSTER}
+  grafana:
+    image: grafana/grafana:6.6.2
+    ports:
+      - 3333:3000
