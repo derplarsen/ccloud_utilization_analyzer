@@ -22,7 +22,7 @@ export CCLOUD_CLUSTER=lkc-abc123
 6. The first time you run it, you'll need to add Prometheus as a data source. Hover over the Gear icon and click Data Sources. Add a datasource for Prometheus with http://prometheus:9090 as the URL, then click ***Save & Test***.
 7. Now that you have Prometheus added as the data source for Grafana, you can *import the dashboard*. For this, click on the **+** sign on the top left of the dashboard and click Import. Click "Upload .json file" which you will find in the **./grafana** folder. 
 
-Yay! You now have a prebuilt working Grafana dashboard sourcing from Prometheus which is collecting metrics from the Confluent Cloud Metrics API. 
+**Yay! You now have a prebuilt working Grafana dashboard sourcing from Prometheus which is collecting metrics from the Confluent Cloud Metrics API. **
 
 ### **Q**: I don't have any data showing? 
 
