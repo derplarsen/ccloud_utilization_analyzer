@@ -40,9 +40,9 @@ Yay! You now have a prebuilt working Grafana dashboard sourcing from Prometheus 
 
 ### **A**: Great! You're savvy with telemetry exporters, as specified in Damien's README, you can hit it at localhost:2112
 
-~~ For additional reference below ~~
+~~ For additional reference below, the original README from Damien:  ~~
 
-# ORIGINAL README from Damien: 
+
 
 ----------
 
