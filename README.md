@@ -22,23 +22,23 @@ export CCLOUD_CLUSTER=lkc-abc123
 6. The first time you run it, you'll need to add Prometheus as a data source. Hover over the Gear icon and click Data Sources. Add a datasource for Prometheus with http://prometheus:9090 as the URL, then click ***Save & Test***.
 7. Now that you have Prometheus added as the data source for Grafana, you can *import the dashboard*. For this, click on the **+** sign on the top left of the dashboard and click Import. Click "Upload .json file" which you will find in the **./grafana** folder. 
 
-### Yay! You now have a prebuilt working Grafana dashboard sourcing from Prometheus which is collecting metrics from the Confluent Cloud Metrics API. 
+Yay! You now have a prebuilt working Grafana dashboard sourcing from Prometheus which is collecting metrics from the Confluent Cloud Metrics API. 
 
-### Q: I don't have any data showing? 
+### **Q**: I don't have any data showing? 
 
-### A: Prometheus is a database that needs to be populated, it will start scraping the Metrics API
+### **A**: Prometheus is a database that needs to be populated, it will start scraping the Metrics API
 
-### Q: When can I expect to see my metrics rolling in? 
+### **Q**: When can I expect to see my metrics rolling in? 
 
-### A: Metrics API data is populated every couple of minutes so you shouldn't have to wait long. Reload your Grafana dashboard page if necessary.
+### **A**: Metrics API data is populated every couple of minutes so you shouldn't have to wait long. Reload your Grafana dashboard page if necessary.
 
-### Q: How do I access Prometheus Directly?
+### **Q**: How do I access Prometheus Directly?
 
-### A: Provided you don't have any port conflicts, you should be able to get to Prometheus to run expressions on http://localhost:9090
+### **A**: Provided you don't have any port conflicts, you should be able to get to Prometheus to run expressions on http://localhost:9090
 
-### Q: What if I want to leverage the exporter directly using something other than Prometheus?
+### **Q**: What if I want to leverage the exporter directly using something other than Prometheus?
 
-### A: Great! You're savvy with telemetry exporters, as specified in Damien's README, you can hit it at localhost:2112
+### **A**: Great! You're savvy with telemetry exporters, as specified in Damien's README, you can hit it at localhost:2112
 
 ~~ For additional reference below ~~
 
