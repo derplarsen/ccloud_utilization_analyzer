@@ -32,7 +32,7 @@ export CCLOUD_CLUSTER=lkc-abc123
 
 ### **A**: Metrics API data is populated every couple of minutes so you shouldn't have to wait long. Reload your Grafana dashboard page if necessary.
 
-### **Q**: How do I access Prometheus Directly?
+### **Q**: How do I access Prometheus directly?
 
 ### **A**: Provided you don't have any port conflicts, you should be able to get to Prometheus to run expressions on http://localhost:9090
 
