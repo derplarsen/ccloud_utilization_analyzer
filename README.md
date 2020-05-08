@@ -1,6 +1,6 @@
 # Use Prometheus and Grafana against Confluent Cloud Metrics API
 
-This repo is to help you learn what your utilization is like in Confluent Cloud, it is based on the work Damien Gasparina did more generally in the ccloudexporter project and conformed to make it much more straight forward to serve the purpose of directly getting into Grafana after starting to scrape metrics from Cloud Telemetry.
+This repo is to help you learn what your utilization is like in Confluent Cloud, it is based on the work Damien Gasparina did more generally in the ccloudexporter project and conformed to make it much more straight forward to serve the purpose of getting directly into a pre-built Grafana dashboard and pre-loaded Prometheus datasource, after starting to scrape metrics from Cloud Telemetry.
 
 ## Instructions:
 
