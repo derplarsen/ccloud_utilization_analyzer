@@ -7,7 +7,7 @@ This repo is to help you learn what your utilization is like in Confluent Cloud,
 Pre-requisite: Docker installed
 
 1. Git clone this repo: 
-```git clone https://github.com/derplarsen/ccloudexporter.git```
+```git clone https://github.com/derplarsen/ccloud_utilization_analyzer.git```
 2. Enter the directory cloned
 3. Set the environment variables for CCLOUD_USER, CCLOUD_PASSWORD, and CCLOUD_CLUSTER
 ```
